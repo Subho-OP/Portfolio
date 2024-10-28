@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height:;
+    width: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+#main{  
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+    position: fixed;
+    width: 100%;
+    
+}
+#nav button{
+    background-color:black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+#intro{
+    height: 45%;
+    width: 100%;
+   
+    padding: 55px 60px;
+    
+}
+#intro h1{
+    font-size: 110px;
+    line-height: 120px;
+    letter-spacing: -3px;
+    
+}
+#place{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#place h3,#place h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+#main-image{
+    height: 70%;
+    width: 100%;
+    align-items: ;
+}
+#about{
+    height: 45%;
+    width: 100%;
+  
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 50px 30px;
+    border-bottom: 3px solid black;
+    
+}
+#about h2{
+  
+    width: 60%;
+    font-size: 60px;
+    line-height: 80px;
+    border-right: 3px solid black;
+}
+#about2 {
+    background-color:;
+    width: 40%;
+    padding: 0 30px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#about2 h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+#icons{
+    position: absolute;
+    left: 83%;
+    top: 201%;
+}
+#icons i{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 10px;
+   
+}
+#work{
+    display: flex;
+    padding: 55px 80px;
+}
+#work>h2{
+    border-right: 3px solid black;
+    width: 20%;
+    padding: 20px;
+}
+#work1{
+    width: 40%;
+    border-right: 3px solid black;
+    padding: 0 20px;
+}
+#work2{
+    width: 40%;
+    padding: 0 20px;
+}
+#work1p1{
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+#work1p2{
+    padding: 20px;
+}
+#work2p1{
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+#work2p2{
+    padding: 20px;
+   
+}
+#WOR{
+    height: 20%;
+    width: 100%;
+    
+}
+#WOR H2{
+    font-size: 92px;
+    text-align: center;
+    padding: 10PX;
+    border-top: 3px solid black;
+}
